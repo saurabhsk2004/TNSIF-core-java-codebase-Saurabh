@@ -1,16 +1,15 @@
 package com.daythird;
 
-
-public class Taxcalculaor {
-
-	
-		
+public class Person {
+	//data members
 		private String name;
 		private int income;
 		private String gender;
 		private int age;
-		private long mobileno;
+		private long mobileNumber;
 		private int tax;
+		
+		//getter and setter 
 		public String getName() {
 			return name;
 		}
@@ -35,11 +34,11 @@ public class Taxcalculaor {
 		public void setAge(int age) {
 			this.age = age;
 		}
-		public long getMobileno() {
-			return mobileno;
+		public long getMobileNumber() {
+			return mobileNumber;
 		}
-		public void setMobileno(long mobileno) {
-			this.mobileno = mobileno;
+		public void setMobileNumber(long mobileNumber) {
+			this.mobileNumber = mobileNumber;
 		}
 		public int getTax() {
 			return tax;
@@ -47,14 +46,15 @@ public class Taxcalculaor {
 		public void setTax(int tax) {
 			this.tax = tax;
 		}
+		
+		//object class method returns string representation of person object 
 		@Override
 		public String toString() {
-			return "Taxcalculaor [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age
-					+ ", mobileno=" + mobileno + ", tax=" + tax + "]";
+			return "Person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", mobileNumber="
+					+ mobileNumber + ", tax=" + tax + "]";
 		}
 		
+		
+		
 
-	}
-
-
-
+}

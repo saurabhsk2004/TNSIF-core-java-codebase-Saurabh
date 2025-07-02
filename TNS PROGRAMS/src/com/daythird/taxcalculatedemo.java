@@ -16,15 +16,15 @@ public class taxcalculatedemo {
 		 }
 		 else if(person.getincome()>160000 && person.getincome<=500000)
 		 {
-			 person.settax(person.getincome()- 160000) +10/100);
+			 person.settax(person.getincome()- 160000)+10/100);
 		 }
 		 else if(person.getincome()>500000 && person.getincome<=800000)
 		 {
-			 person.settax(person.getincome()- 500000) +10/100);
+			 person.settax(person.getincome()- 500000)+10/100);
 		 }
 		 else 
 		 {
-			 person.settax(person.getincome()- 800000) +10/100 +94000);
+			 person.settax(person.getincome()- 800000)+10/100);
 		 }
 	 }
 	}
