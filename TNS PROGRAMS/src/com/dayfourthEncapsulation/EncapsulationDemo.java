@@ -2,13 +2,15 @@ package com.dayfourthEncapsulation;
 
 public class EncapsulationDemo {
 	
-	pubic static void main(String[] args) {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		OopsConceptDemo obj=new OopsConceptDemo();
 		
-		OopsConceptDemo obj= new OopsConceptDemo();
-		
-		obj.setName("shubham");
+		obj.setName("Shubham");
 		obj.setAge(23);
-		obj.setSerialNo(101);
+		obj.setSerailNum(1001);
 		
 		System.out.println(obj);
+	}
 }

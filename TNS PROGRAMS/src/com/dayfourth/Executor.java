@@ -1,4 +1,11 @@
+
+
 package com.dayfourth;
+
+
+
+
+
 
 public class Executor {
 	public static void main (String[] args) {
@@ -13,6 +20,11 @@ public class Executor {
 		b1.varDefault=11;
 		b1.methodDefault();
 		
-	}
 
-}
+		
+		
+		
+		
+		
+		
+		-
