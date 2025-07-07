@@ -7,7 +7,7 @@ final class FinalClass
 	void show() 
 		{
 		
-			System.out.println("final class canoty be inherited");
+			System.out.println("final class canot be inherited");
 		}
 }
 

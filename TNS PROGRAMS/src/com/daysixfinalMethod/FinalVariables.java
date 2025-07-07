@@ -1,7 +1,7 @@
 package com.daysixfinalMethod;
 
 public class FinalVariables {
-	//final int a;
+	//final int a;+
 final int x=100;
 	
 	//declare a static blank final varible
@@ -29,7 +29,7 @@ final int x=100;
 		y=20;
 		//z=80;  once initialized can't be reassigned
 		System.out.println("value of Y : "+ y);
-	}
+	}-
 	
 
 }
