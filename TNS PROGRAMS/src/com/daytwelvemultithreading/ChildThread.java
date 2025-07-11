@@ -17,7 +17,14 @@ public class ChildThread extends Thread{
 		for(int i=1; i<n;i++)
 		{
 			try {
-				Thread.sleep(5000);	
+				Thread.sleep(5u'
+						'
+						
+						]
+								\][
+								   
+								   
+								   000);	
 			}
 			catch(InterruptedException e)
 			{
@@ -29,3 +36,65 @@ public class ChildThread extends Thread{
 	}
 
 }
+.l
+
+]
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		|
+		

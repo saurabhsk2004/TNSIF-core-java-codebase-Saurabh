@@ -5,7 +5,7 @@ public class THREADLIFECYCLEDEMO  extends Thread{
 
 	public void run ()
 	{
-		System.out.println("inside run() thread is alive or not ?"+this.isAlive());
+		System.out.println("--inside run() thread is alive or not ?"+this.isAlive());
 		int num =0;
 		while(num<4)
 		{
@@ -14,7 +14,7 @@ public class THREADLIFECYCLEDEMO  extends Thread{
 		}
 		try {
 			sleep(500);
-			System.out.println("in not runnable state, thread is alive or not ?"+this.isAlive());
+			System.out.println("--is not runnable state, thread is alive or not ?"+this.isAlive());
 		}
 		catch(InterruptedException e)
 		{

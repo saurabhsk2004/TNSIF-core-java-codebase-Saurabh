@@ -8,7 +8,7 @@ public static void main(String[] args)
 	myThread.start();
 	
 	try {
-		Thread.sleep(500);
+		Thread.sleep(600);
 		
 	}
 	catch(InterruptedException e)
