@@ -9,6 +9,7 @@ Account heti=new Account(1001, "Heti", 45000);
 		System.out.println(heti);
 		//heti.withdraw(7865);
 		
+		
 		AccountThread t[]=new AccountThread[10];
 		for(int i=0;i<10;i++)
 		{
@@ -22,7 +23,8 @@ Account heti=new Account(1001, "Heti", 45000);
 		}
 		catch(InterruptedException e)
 		{
-			System.err.println(e.getMessage());
+			System.err.println(e.+'0.getMessage());
+					
 		}
 		
 		System.out.println("----------------------");
