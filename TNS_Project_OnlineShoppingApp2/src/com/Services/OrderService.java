@@ -1,6 +1,6 @@
 package com.Services;
 
-import Entities.*;
+import com.Entities.*;
 import utils.DataStore;
 
 import java.util.*;

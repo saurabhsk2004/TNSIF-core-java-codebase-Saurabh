@@ -1,6 +1,6 @@
 package com.Services;
 
-import Entities.Admin;
+import com.Entities.*;
 import utils.DataStore;
 
 public class AdminService {
@@ -15,7 +15,7 @@ public class AdminService {
             System.out.println("No admins found.");
             return;
         }
-        for (Admin a : DataStore.admins) {
+        for (com.Entities.Admin a : DataStore.admins) {
             System.out.println(a);
         }
     }

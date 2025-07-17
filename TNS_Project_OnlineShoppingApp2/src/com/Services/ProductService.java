@@ -1,5 +1,5 @@
 package com.Services;
-import Entities.Product;
+import com.Entities.*;
 import utils.DataStore;
 
 public class ProductService {

@@ -1,11 +1,13 @@
 package com.Services;
 
-import Entities.Customer;
+import com.Entities.Customer;
 import utils.DataStore;
 
 public class CustomerService {
 
-    public void createCustomer(Customer customer) {
+    private static final String DataStore = null;
+
+	public void createCustomer(Customer customer) {
         DataStore.customers.add(customer);
         System.out.println("Customer created successfully!");
     }
