@@ -5,7 +5,7 @@ import utils.DataStore;
 
 public class CustomerService {
 
-    private static final String DataStore = null;
+   // private static final String DataStore = null;
 
 	public void createCustomer(Customer customer) {
         DataStore.customers.add(customer);
